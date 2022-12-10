@@ -31,12 +31,8 @@ function renderGame() {
 
 function newCard() {
     console.log("Drawing a new card from the deck!")
-    // 1. Create a card variable, and hard code its value to a number (2-11)
-    let card = 2
-    
-    // 2. Add the new card to the sum variable
-    sum += card
-    
-    // 3. Call renderGame()
+    let card = 2 // hardcoded card value for now
+    sum += card // add card to hand
+    cards.push(card) // add card to cards array
     renderGame()
 }
