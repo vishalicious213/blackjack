@@ -3,7 +3,7 @@ let secondCard = getRandomCard()
 let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard
 let hasBlackJack = false
-let isAlive = true
+let isAlive = false
 let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
@@ -21,6 +21,7 @@ function getRandomCard() {
 }
 
 function startGame() {
+    isAlive = true // set isAlive to true when game starts
     renderGame()
 }
 
