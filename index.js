@@ -47,11 +47,11 @@ function renderGame() {
     messageEl.textContent = message
 }
 
-
 function newCard() {
-    console.log("Drawing a new card from the deck!")
-    let card = getRandomCard() // generating random card value
-    sum += card // add card to hand
-    cards.push(card) // add card to cards array
-    renderGame()
+    if (isAlive && !hasBlackJack) { // only runs if the player is alive and does not have blackjack
+        let card = getRandomCard() // generating random card value
+        sum += card // add card to hand
+        cards.push(card) // add card to cards array
+        renderGame()
+    }
 }
