@@ -55,3 +55,12 @@ function newCard() {
         renderGame()
     }
 }
+
+function resetGame() {
+    isAlive = false
+    cards = []
+    sum = 0
+    cardsEl.textContent = "Cards: "
+    sumEl.textContent = "Sum: "
+    messageEl.textContent = "Want to play a round?"
+}
