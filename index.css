@@ -26,6 +26,12 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    margin-bottom: .25rem;
+    margin-top: .25rem;
+}
+
+button:hover {
+    color: darkgreen;
+    background: darkgoldenrod;
+    outline: 1px solid palegoldenrod;
 }
