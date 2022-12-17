@@ -1,13 +1,13 @@
 # Blackjack
 
-JavaScript methods used in this project:
+### JavaScript methods used in this project:
 - document.getElementById()
 - ELEMENT.textContent
 - ARRAY.push()
 - Math.floor()
 - Math.random()
 
-Other coding concepts:
+### Other coding concepts:
 - variable declarations (let)
   - array
   - number
