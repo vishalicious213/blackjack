@@ -1,5 +1,7 @@
 # Blackjack
 
+This was a project from Module 3 (Making Websites Interactive) of Scrimba's [Frontend Developer Path](https://scrimba.com/learn/frontend).
+
 ### JavaScript methods used in this project:
 - document.getElementById()
 - ELEMENT.textContent
